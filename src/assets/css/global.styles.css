@@ -1,0 +1,41 @@
+@import url('bootstrap.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-primary: #242424;
+    --bg-secondary: #fff;
+    --link-primary: #f44336;
+    --link-secondary: #d22114;
+    --text-primary: #242424;
+    --text-secondary: #fff;
+}
+
+body {
+    font-family: 'Roboto';
+    overflow-x: hidden !important;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+::-webkit-scrollbar-track {
+    background-color: #fff;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #242424;
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--link-primary);
+    transition: 0.5s;
+}
+a:hover {
+    color: var(--link-secondary);
+    transition: 0.5s;
+}
